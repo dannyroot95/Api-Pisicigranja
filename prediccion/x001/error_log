@@ -1,0 +1,36 @@
+[02-Sep-2020 04:39:47 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:39:47 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:39:54 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:39:54 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:41:15 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:41:15 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:41:18 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:41:18 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:41:28 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:41:28 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:43:01 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:43:01 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:44:26 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:44:26 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:44:27 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:44:27 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:45:14 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:45:14 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:45:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php:15
+Stack trace:
+#0 /home/qs9ye0ku56s2/public_html/datachip/x001/index.php(6): ApiPeliculas->getAll()
+#1 {main}
+  thrown in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 15
+[02-Sep-2020 04:47:46 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 04:47:46 UTC] PHP Notice:  Undefined index: nombre in /home/qs9ye0ku56s2/public_html/datachip/x001/apipeliculas.php on line 20
+[02-Sep-2020 05:01:45 UTC] PHP Fatal error:  Uncaught Error: Class 'serie' not found in /home/qs9ye0ku56s2/public_html/datachip/x001/api_iot.php:9
+Stack trace:
+#0 /home/qs9ye0ku56s2/public_html/datachip/x001/index.php(6): ApiIot->getAll()
+#1 {main}
+  thrown in /home/qs9ye0ku56s2/public_html/datachip/x001/api_iot.php on line 9
+[04-Sep-2020 05:46:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/qs9ye0ku56s2/public_html/datachip/x001/dispositivo.php:8
+Stack trace:
+#0 /home/qs9ye0ku56s2/public_html/datachip/x001/api_iot.php(13): Serie->obtenerDatos()
+#1 /home/qs9ye0ku56s2/public_html/datachip/x001/index.php(6): ApiIot->getAll()
+#2 {main}
+  thrown in /home/qs9ye0ku56s2/public_html/datachip/x001/dispositivo.php on line 8
